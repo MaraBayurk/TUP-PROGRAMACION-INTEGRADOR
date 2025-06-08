@@ -20,6 +20,12 @@ Esta metodología facilita la comprensión de estructuras de datos complejas y l
 
 ---
 
+## Presentacion del video en Youtube
+
+Link al video de Youtube de la presentación: https://youtu.be/zrXtcT8cS1U
+
+---
+
 ## Instrucciones de uso
 
 1. Clonar el repositorio:
