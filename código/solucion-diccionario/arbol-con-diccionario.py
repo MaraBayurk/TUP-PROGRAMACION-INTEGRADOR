@@ -127,3 +127,32 @@ def calcularGrado(nodo):
 #Ejecutar codigo
 grado = calcularGrado(arbol)
 print(f'El grado del árbol es: {grado}')
+
+
+
+## CASO EXTRA
+def buscarCamino(nodo, destino, camino=None):
+   if camino is None:
+       camino = []  # Inicializamos el camino si es la primera llamada
+   # Si el nodo es una pregunta, la agregamos al camino
+   if "pregunta" in nodo:
+       camino_actual = camino + [nodo["pregunta"]]
+       if nodo["pregunta"] == destino:
+           return camino_actual  # Si encontramos la pregunta buscada
+       # Buscamos recursivamente en las ramas 'si' y 'no'
+       for respuesta in ["si", "no"]:
+           if respuesta in nodo:
+               resultado = buscarCamino(nodo[respuesta], destino, camino_actual)
+               if resultado:
+                   return resultado
+   # Si el nodo es un resultado (hoja), verificamos si es el destino
+   if "resultado" in nodo:
+       if nodo["resultado"] == destino:
+           return camino + [nodo["resultado"]]  # Devolvemos el camino completo
+   # Si no se encontró el destino en este camino
+   return None
+
+
+
+#Ejecutar codigo
+print(buscarCamino(arbol, "¿Te apasionan los fuegos artificiales?"))  # Debería devolver el camino hasta esa pregunta
