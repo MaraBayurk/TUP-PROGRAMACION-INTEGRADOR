@@ -1,4 +1,4 @@
-# Trabajo Integrador - Programación
+# Trabajo Integrador - Programación - Comisión 10
 
 ## Presentación de los integrantes
 
@@ -42,4 +42,4 @@ Link al video de Youtube de la presentación: https://youtu.be/zrXtcT8cS1U
 
 ## Reflexiones del equipo
 
-Durante el desarrollo de este trabajo integrador, el equipo pudo afianzar los conceptos fundamentales de la programación, el trabajo colaborativo y la resolución de problemas. Nos enfrentamos a desafíos que nos permitieron aprender a investigar, dividir tareas y apoyarnos mutuamente para lograr los objetivos propuestos. Consideramos que la experiencia nos preparó mejor para futuros proyectos académicos y profesionales.
+Durante el desarrollo de este trabajo integrador, pudimos afianzar los conceptos fundamentales de la programación, el trabajo colaborativo y la resolución de problemas. Nos enfrentamos a desafíos que nos permitieron aprender a investigar, dividir tareas y apoyarnos mutuamente para lograr los objetivos propuestos.
